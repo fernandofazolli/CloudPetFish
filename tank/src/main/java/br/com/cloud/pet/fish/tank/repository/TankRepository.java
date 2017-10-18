@@ -1,4 +1,4 @@
-package br.com.cloud.pet.fish.tank;
+package br.com.cloud.pet.fish.tank.repository;
 
 import br.com.cloud.pet.fish.tank.to.Tank;
 import org.springframework.data.repository.CrudRepository;

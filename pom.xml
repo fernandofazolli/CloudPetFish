@@ -33,10 +33,6 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-hystrix</artifactId>
         </dependency>
     </dependencies>
@@ -45,6 +41,8 @@
         <module>owner</module>
         <module>fish</module>
         <module>tank</module>
+        <module>cloud-config</module>
+        <module>cloud-service-discovery</module>
     </modules>
 
     <repositories>
